@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Assignment 1</string>
+    <string name="title_activity_bars">Bars</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="bar1">osho</string>
+    <string name="bar1Desc">We are a small pub located on Barrack Street, Cork. Come and enjoy the O’sho vibes</string>
+
+    <string name="bar2">The Woodford</string>
+    <string name="bar2Desc">Watering hole and weekend DJ bar with comfort food in a Georgian building with sofas and snug areas.</string>
+
+    <string name="bar3">The Oval</string>
+    <string name="bar3Desc">Enjoy some of the craft beers we have on tap with good tunes, and a fun atmosphere.</string>
+
+    <string name="bar4">The Thomond Bar</string>
+    <string name="bar4Desc">We are your Number #1 Sports Bar in Cork City Serving the Best of Food and Drink in a relaxed atmosphere</string>
+
+    <string name="bar5">bar1 test</string>
+    <string name="bar5Desc"> Traditional Irish pub is without doubt one of Cork’s oldest and finest pubs,</string>
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
