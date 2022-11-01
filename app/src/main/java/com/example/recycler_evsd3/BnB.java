@@ -65,17 +65,31 @@ public class BnB  extends Fragment implements MyItemRecyclerViewAdapter.ItemClic
         picsBnB.add(R.drawable.bar3);
         picsBnB.add(R.drawable.bar4);
         picsBnB.add(R.drawable.bar5);
+
+        ArrayList<String> BnBDescriton = new ArrayList<String>();
+
+        String bar1Des = getString(R.string.bar1);
+        String bar2Des = getString(R.string.bar2);
+        String bar3Des = getString(R.string.bar3);
+        String bar4Des = getString(R.string.bar4);
+        String bar5Des = getString(R.string.bar5);
+
+        BnBDescriton.add(bar1Des);
+        BnBDescriton.add(bar2Des);
+        BnBDescriton.add(bar3Des);
+        BnBDescriton.add(bar4Des);
+        BnBDescriton.add(bar5Des);
         // Set the adapter
         if (view instanceof RecyclerView) {
             Context context = view.getContext();
             RecyclerView recyclerView = (RecyclerView) view;
             if (mColumnCount <= 1) {
                 recyclerView.setLayoutManager(new LinearLayoutManager(context));
-                myAdapter = new MyItemRecyclerViewAdapter(this, myList, picsBnB);
+                myAdapter = new MyItemRecyclerViewAdapter(this, myList, picsBnB,BnBDescriton);
             } else {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
-           recyclerView.setAdapter(new MyItemRecyclerViewAdapter(this, myList, picsBnB));
+           recyclerView.setAdapter(new MyItemRecyclerViewAdapter(this, myList, picsBnB,BnBDescriton));
             myAdapter.setClickListener(this);
             recyclerView.setAdapter(myAdapter);
         }

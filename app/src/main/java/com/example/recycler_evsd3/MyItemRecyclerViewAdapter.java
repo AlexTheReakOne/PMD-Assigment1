@@ -77,7 +77,7 @@ public class MyItemRecyclerViewAdapter extends RecyclerView.Adapter<MyItemRecycl
     public void onBindViewHolder(final ViewHolder holder, int position) {
         holder.mItem = mValues.get(position);
         holder.mIdView.setText(mValues.get(position));
-        holder.mContentView.setText(mValues.get(position));
+        holder.mContentView.setText(mValuesDes.get(position));
         holder.pItem = pics.get(position);
                 // Drawable d = getResources().getDrawable(pics.get(position));
         holder.pimageView.setImageResource(pics.get(position));

@@ -79,11 +79,11 @@ public class Bars  extends Fragment  implements MyItemRecyclerViewAdapter.ItemCl
 
          ArrayList<String> barsDescriton = new ArrayList<String>();
 
-        String bar1Des = getString(R.string.bar1);
-        String bar2Des = getString(R.string.bar2);
-        String bar3Des = getString(R.string.bar3);
-        String bar4Des = getString(R.string.bar4);
-        String bar5Des = getString(R.string.bar5);
+        String bar1Des = getString(R.string.bar1Desc);
+        String bar2Des = getString(R.string.bar2Desc);
+        String bar3Des = getString(R.string.bar3Desc);
+        String bar4Des = getString(R.string.bar4Desc);
+        String bar5Des = getString(R.string.bar5Desc);
 
         barsDescriton.add(bar1Des);
         barsDescriton.add(bar2Des);
